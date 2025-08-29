@@ -382,14 +382,14 @@ export const Wallet = () => {
                     )}
 
                     {/* Bottom Navigation - Only show when wallet is connected */}
-                    {wallet.publicKey && (
+                    {/* {wallet.publicKey && (
                         <div style={{
                             position: 'sticky',
                             bottom: 0,
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
-                            padding: '12px 0',
+                            padding: '0px 0',
                             borderTop: '1px solid rgba(55, 65, 81, 0.5)',
                             backdropFilter: 'blur(8px)'
                         }}>
@@ -413,7 +413,7 @@ export const Wallet = () => {
                                 <span style={{ fontSize: '13px' }}>Home</span>
                             </button>
                         </div>
-                    )}
+                    )} */}
                 </div>
             </div>
 

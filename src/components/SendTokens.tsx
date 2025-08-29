@@ -110,7 +110,7 @@ export const SendTokens = () => {
                 </button>
             </div>
             
-            {wallet.connected ? (
+            {/* {wallet.connected ? (
                 <div style={{ 
                     padding: '16px', 
                     background: '#0d1117', 
@@ -153,7 +153,7 @@ export const SendTokens = () => {
                         Please connect your wallet to send tokens
                     </p>
                 </div>
-            )}
+            )} */}
         </div>
     );
 };

@@ -17,7 +17,7 @@ html, body, #root {
               linear-gradient(135deg, #0b1220 0%, #111827 60%, #0b1220 100%);
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Subtle floating animation for action icons */

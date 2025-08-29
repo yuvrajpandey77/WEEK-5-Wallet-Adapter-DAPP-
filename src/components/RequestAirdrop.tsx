@@ -80,12 +80,11 @@ export const RequestAirdrop = () => {
             </div>
 
             {wallet.connected ? (
-                <div style={{ 
-                    padding: '16px', 
+                <div style={{  
                     background: '#0d1117', 
                     borderRadius: '8px',
                     border: '1px solid #30363d',
-                    marginTop: '20px'
+                    marginTop: '10px'
                 }}>
                     <p style={{ 
                         fontSize: '0.875rem', 
